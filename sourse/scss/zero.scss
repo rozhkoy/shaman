@@ -1,0 +1,35 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	font-family: "Barlow", sans-serif;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	background: #fffbf8;
+}
+.df {
+	display: flex;
+}
+.dg {
+	display: grid;
+}
+.grid-12 {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 0 33px;
+}
+button,
+a {
+	cursor: pointer;
+}
+
+/*::-webkit-scrollbar {
+    width: 0;
+}*/
